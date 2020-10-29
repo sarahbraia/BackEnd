@@ -53,3 +53,7 @@ insert into tb_cargo (id_cargo, setor, cargo, id_funcionario) values
   INNER JOIN tb_cargo
   where tb_funcionario.id_funcionario = tb_cargo.id_Cargo;
   
+  select nome, salario from tb_funcionario;
+ 
+  
+  
